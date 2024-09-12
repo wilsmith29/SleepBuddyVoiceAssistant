@@ -1,0 +1,120 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "duration",
+              "type": "AMAZON.DURATION"
+            },
+            {
+              "name": "date",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "name": "LogSleepIntent",
+          "samples": [
+            "I got {duration} of sleep",
+            "I slept {duration} yesterday",
+            "I had {duration} of sleep",
+            "I slept for {duration} last night ",
+            "Record {duration} of sleep",
+            "I got {duration} of sleep yesterday",
+            "Log {duration} of sleep",
+            "I had {duration} of sleep last night",
+            "I slept {duration}",
+            "Record {duration} of sleep on {date}",
+            "I had {duration} of sleep on {date}",
+            "I got {duration} of sleep on {date}",
+            "Log {duration} of sleep on {date}",
+            "I slept {duration} on {date}",
+            "I slept for {duration} on {date}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "date",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "name": "SleepQualityIntent",
+          "samples": [
+            "How was my rest {date}",
+            "How well di I sleep {date}",
+            "What was the sleep quality for {date}",
+            "How restful was my sleep on {date}",
+            "Give me my sleep rating for {date}",
+            "What was my rest like on {date}",
+            "Tell me about my sleep on {date}",
+            "How was my sleep on {date}",
+            "What was my sleep score on {date}",
+            "How did I sleep on {date}",
+            "What was my sleep like on {date}",
+            "What was the quality of my sleep on {date}",
+            "How good was my sleep on {date}",
+            "What was my sleep quality on {date}",
+            "How well did I sleep on {date}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "SleepSummaryIntent",
+          "samples": [
+            "Tell me about my sleep over the previous week",
+            "What\u0027s my sleep like over the past week",
+            "Give me a summary of my sleep from the last seven days",
+            "How was my rest over the past week",
+            "Tell me about my sleep from the last seven days",
+            "What\u0027s my sleep report for the past week",
+            "Give me an overview of my sleep for the last seven days",
+            "How was my rest this week",
+            "How did I sleep over the past seven days",
+            "What\u0027s my sleep history for the last week",
+            "Tell me about my sleep over the past week",
+            "Give me a recap of my sleep for the last week",
+            "How did I sleep this week",
+            "What\u0027s my sleep summary for the past week",
+            "Give me a summary of my sleep for the past week"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "sleep buddie"
+    }
+  }
+}
